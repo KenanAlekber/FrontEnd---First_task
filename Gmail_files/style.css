@@ -1,0 +1,53 @@
+*{
+    margin: 0px !important;
+}
+
+#task{
+    display: flex;  /* flex - elementi flexible hala gətirərək yerini dəyişməyə kömək edir */
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 130px;
+    margin-bottom: 150px;
+    padding:  15px 10px;
+    /* padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px; */
+}
+
+.table{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+th, td{
+    background-color: rgb(137, 240, 184);
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;   /*flexin hansı istiqamətə düzülməsini müəyyən edir*/
+    margin-bottom: 40px;
+    background-color: rgb(90, 86, 86);
+    padding: 30px;
+    border-bottom: 50px;
+    padding-bottom: 70px;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    background-color: rgb(137, 240, 184);
+    border-radius: 100px;
+    padding: 5px 5px;
+    /* padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px; */
+} 
